@@ -24,7 +24,7 @@ const Signup = () => {
 
 
         try {
-            const res = await axios.post('http://localhost:3000/user/signup', formData);
+            const res = await axios.post('https://kitaab-eosin.vercel.app/user/signup', formData);
 
             if (res.data) {
                 localStorage.setItem("Users", JSON.stringify(res.data.result));
