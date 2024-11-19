@@ -14,7 +14,7 @@ dotenv.config();
 const port = process.env.PORT;
 
 app.use(cors({
-    origin: '',
+    origin: 'https://kitaab-front.vercel.app/',
     methods: ["POST", "GET"],
     credentials: true
 }));
