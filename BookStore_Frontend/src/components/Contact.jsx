@@ -20,7 +20,7 @@ const Contact = () => {
         };
 
         try {
-            const res = await axios.post('kitaab-eosin.vercel.app/contact/message', formdata);
+            const res = await axios.post('http://kitaab-eosin.vercel.app/contact/message', formdata);
             if (res.data) {
                 toast.success("Message submitted successfully!");
                 window.location.reload()
