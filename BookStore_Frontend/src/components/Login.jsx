@@ -21,7 +21,7 @@ const Login = () => {
 
 
         try {
-            const res = await axios.post('http://localhost:3000/user/login', formData);
+            const res = await axios.post('https://kitaab-eosin.vercel.app/user/login', formData);
 
             if (res.data) {
 
