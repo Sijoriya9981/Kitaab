@@ -1,7 +1,7 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
-import Navbar from './Navbar';
-import Footer from './Footer';
+import Navbar from './Navbar.jsx';
+import Footer from './Footer.jsx';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 
