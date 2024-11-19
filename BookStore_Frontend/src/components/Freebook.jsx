@@ -12,6 +12,7 @@ const Freebook = () => {
             try {
 
                 const free = await axios('https://kitaab-eosin.vercel.app/book');
+               
 
                 setbook(free.data.book)
             }
