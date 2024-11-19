@@ -11,7 +11,7 @@ const Freebook = () => {
         const getfreebook = async (req, res) => {
             try {
 
-                const free = await axios('http://localhost:3000/book');
+                const free = await axios('https://kitaab-eosin.vercel.app/book');
 
                 setbook(free.data.book)
             }
