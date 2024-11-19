@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../components/Navbar.jsx';
 import Footer from '../components/Footer.jsx';
-import Course from '../components/course.jsx';
+import Course from '../components/Course.jsx';
 
 const Courses = () => {
     return (
