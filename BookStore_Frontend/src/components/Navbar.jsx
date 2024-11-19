@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Login from './Login';
+import Login from './Login.jsx';
 import { useAuth } from '../context/AuthProvider';
-import Logout from './Logout';
+import Logout from './Logout.jsx';
 Login
 
 const Navbar = () => {
