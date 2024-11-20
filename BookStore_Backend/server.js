@@ -38,7 +38,9 @@ app.use('/book', BookRoutes)
 app.use('/user', SignupRoutes)
 app.use('/contact', contactRoutes)
 
-
+app.get('/', (req, res) => {
+    res.json({ msg: "Hello" });
+});
 app.listen(port || 3000, () => {
     console.log(`Server is running  on port ${port}`)
 })
