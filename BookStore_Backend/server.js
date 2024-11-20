@@ -23,7 +23,8 @@ app.use(bodyParser.json());
 app.use(express.json())
 
 //connect with database
-mongoose.connect(process.env.MONGO_URL)
+mongoose.connect(process.env.MONGO_URL||'mongodb+srv://vks609995:DoeK02HpDjEDW4yc@cluster0.ch4lm1e.mongodb.net/bookStore?retryWrites=true&w=majority&appName=Cluster0
+)
 mongoose.connection.on('error', err => {
     console.log("Not Connect With Database")
 })
